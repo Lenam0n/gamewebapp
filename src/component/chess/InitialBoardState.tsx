@@ -1,0 +1,48 @@
+import { Piece } from "./ChessTypes"; // Passe den Pfad zum Piece-Typ an
+
+export const initialBoard: (Piece | null)[][] = [
+  [
+    { type: "R", color: "black", row: 0, col: 0 },
+    { type: "N", color: "black", row: 0, col: 1 },
+    { type: "B", color: "black", row: 0, col: 2 },
+    { type: "Q", color: "black", row: 0, col: 3 },
+    { type: "K", color: "black", row: 0, col: 4 },
+    { type: "B", color: "black", row: 0, col: 5 },
+    { type: "N", color: "black", row: 0, col: 6 },
+    { type: "R", color: "black", row: 0, col: 7 },
+  ],
+  [
+    { type: "P", color: "black", row: 1, col: 0 },
+    { type: "P", color: "black", row: 1, col: 1 },
+    { type: "P", color: "black", row: 1, col: 2 },
+    { type: "P", color: "black", row: 1, col: 3 },
+    { type: "P", color: "black", row: 1, col: 4 },
+    { type: "P", color: "black", row: 1, col: 5 },
+    { type: "P", color: "black", row: 1, col: 6 },
+    { type: "P", color: "black", row: 1, col: 7 },
+  ],
+  [null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null],
+  [
+    { type: "P", color: "white", row: 6, col: 0 },
+    { type: "P", color: "white", row: 6, col: 1 },
+    { type: "P", color: "white", row: 6, col: 2 },
+    { type: "P", color: "white", row: 6, col: 3 },
+    { type: "P", color: "white", row: 6, col: 4 },
+    { type: "P", color: "white", row: 6, col: 5 },
+    { type: "P", color: "white", row: 6, col: 6 },
+    { type: "P", color: "white", row: 6, col: 7 },
+  ],
+  [
+    { type: "R", color: "white", row: 7, col: 0 },
+    { type: "N", color: "white", row: 7, col: 1 },
+    { type: "B", color: "white", row: 7, col: 2 },
+    { type: "Q", color: "white", row: 7, col: 3 },
+    { type: "K", color: "white", row: 7, col: 4 },
+    { type: "B", color: "white", row: 7, col: 5 },
+    { type: "N", color: "white", row: 7, col: 6 },
+    { type: "R", color: "white", row: 7, col: 7 },
+  ],
+];
